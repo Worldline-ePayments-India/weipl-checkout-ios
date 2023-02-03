@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'weipl_checkout'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of weipl_checkout.'
+  s.version          = '1.1.0'
+  s.summary          = 'iOS Checkout SDK for Worldline ePayments India.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  This is official native SDK to integrate Worldline ePayments India Checkout.
                        DESC
 
   s.homepage         = 'https://github.com/113965130/weipl_checkout'
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/113965130/weipl_checkout.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'weipl_checkout/Classes/**/*'
   
