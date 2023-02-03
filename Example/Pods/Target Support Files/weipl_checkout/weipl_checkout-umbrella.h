@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "weipl_checkout .h"
 
 FOUNDATION_EXPORT double weipl_checkoutVersionNumber;
 FOUNDATION_EXPORT const unsigned char weipl_checkoutVersionString[];
