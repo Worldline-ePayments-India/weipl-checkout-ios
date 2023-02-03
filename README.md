@@ -66,9 +66,6 @@ do {
 }
 ```
 
-Change the **options** accordingly. All options for   **[iOS](https://www.paynimo.com/paynimocheckout/docs/?device=ios)** are available on the link.
+### Complete Integration Guide
 
-
-### Response Handling
-
-Please refer detailed response handling & HASH match logic explaination for **[Android](https://www.paynimo.com/paynimocheckout/docs/?device=android)** and  **[iOS](https://www.paynimo.com/paynimocheckout/docs/?device=ios)** from given links.
+Please refer our integration guide for our **[iOS native SDK](https://www.paynimo.com/paynimocheckout/docs/?device=ios)**.
