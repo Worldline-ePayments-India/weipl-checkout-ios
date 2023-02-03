@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'weipl_checkout_Example' do
+  pod 'weipl_checkout', :path => '../'
+
+  target 'weipl_checkout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

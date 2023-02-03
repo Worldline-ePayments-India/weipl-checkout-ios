@@ -1,0 +1,6 @@
+framework module weipl_checkout {
+  umbrella header "weipl_checkout-umbrella.h"
+
+  export *
+  module * { export * }
+}

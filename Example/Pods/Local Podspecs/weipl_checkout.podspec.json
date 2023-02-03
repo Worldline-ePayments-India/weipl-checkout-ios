@@ -1,0 +1,22 @@
+{
+  "name": "weipl_checkout",
+  "version": "0.1.0",
+  "summary": "A short description of weipl_checkout.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/113965130/weipl_checkout",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "113965130": "ashish.palaskar@worldline.com"
+  },
+  "source": {
+    "git": "https://github.com/113965130/weipl_checkout.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "weipl_checkout/Classes/**/*"
+}
