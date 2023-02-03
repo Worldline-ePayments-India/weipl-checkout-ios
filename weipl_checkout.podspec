@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/113965130/weipl_checkout'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '113965130' => 'ashish.palaskar@worldline.com' }
+  s.author           = { 'wordline-ashish' => 'ashish.palaskar@worldline.com' }
   s.source           = { :git => 'https://github.com/113965130/weipl_checkout.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
