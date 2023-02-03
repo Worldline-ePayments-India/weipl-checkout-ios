@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   This is official native SDK to integrate Worldline ePayments India Checkout.
                        DESC
 
-  s.homepage         = 'https://github.com/113965130/weipl_checkout'
+  s.homepage         = 'https://github.com/Worldline-ePayments-India/weipl-checkout-ios'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Worldline-ePayments-India' => 'ashish.palaskar@worldline.com' }
