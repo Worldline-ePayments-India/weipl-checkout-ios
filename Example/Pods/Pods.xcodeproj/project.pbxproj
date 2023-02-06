@@ -6,32 +6,37 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		709657941172B102595B4D3A5CEB006B /* weipl_checkout */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 109B1A6EF385B15A34A4044EAB161ED8 /* Build configuration list for PBXAggregateTarget "weipl_checkout" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = weipl_checkout;
+			productName = weipl_checkout;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		17C62C4163C0083ECC451D6506B52115 /* weipl_checkout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA09CE1CABBCD8AC68CD81E5F8040BBC /* weipl_checkout-dummy.m */; };
-		17E5F442F4F6C36A006991C0116E9BD8 /* weipl_checkout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23DF0FE904850B98553EC6DE0ED60C7E /* weipl_checkout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D5F1557E7718C49B4406DC0A012B8DE /* Pods-weipl_checkout_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A04276E984DEC57C86A0522FD2AC938 /* Pods-weipl_checkout_Tests-dummy.m */; };
+		1D5F1557E7718C49B4406DC0A012B8DE /* Pods-weipl_checkout_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7752C572963BC3FC17F3A0E0DB452440 /* Pods-weipl_checkout_Tests-dummy.m */; };
 		266DBE5A8A7C376477F7778E01410CE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		382D35BE61769803ED416B0633FD4093 /* WLCheckoutViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 87AF2722F7FB3069293DD84AC0983F18 /* WLCheckoutViewController.xib */; };
-		63C82B73FEB2133C5FA32B3FFB9F72FE /* Pods-weipl_checkout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AC434B9EF132CEA7E2E85C6A08C7AD /* Pods-weipl_checkout_Example-dummy.m */; };
-		798A458BB5A9457F0460D2C5D359A390 /* Pods-weipl_checkout_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EDAF96C0A9AABF0F3E108816A5F17A5 /* Pods-weipl_checkout_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		822B1BA76AD43113D4D1F4A46DBF2C8D /* weipl_checkout .h in Headers */ = {isa = PBXBuildFile; fileRef = 26994666119EAA8135FC6C58D69B7284 /* weipl_checkout .h */; settings = {ATTRIBUTES = (Public, ); }; };
-		921653B0B01656680BA06456273E85D9 /* Pods-weipl_checkout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B014A28E2BAC97C6EF05CC3408647478 /* Pods-weipl_checkout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92E6FF71F5DDA2B9D6BD4944D40FCD4A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DCDAA6738F1CF89CA5DEDAFCFB0B91 /* Extensions.swift */; };
+		63C82B73FEB2133C5FA32B3FFB9F72FE /* Pods-weipl_checkout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839AED5969947561DF918F8C784F113 /* Pods-weipl_checkout_Example-dummy.m */; };
+		798A458BB5A9457F0460D2C5D359A390 /* Pods-weipl_checkout_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0FCB435AD254EDE466363C3C9D41C9 /* Pods-weipl_checkout_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		921653B0B01656680BA06456273E85D9 /* Pods-weipl_checkout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DF8C7C58F161A228D123956321B8A2A /* Pods-weipl_checkout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B987C7C7A2A4E4BF31B9E2C3660E7B78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		BDCFA848869D19B0B7CBB27FCD2DF361 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBE0C70A5CB56A57CBD1E8978115694 /* Utility.swift */; };
-		C491D58A2132728E679CBA2C0FC8A92E /* WLCheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A01548A6E473C78EDB19DFA1C5C8BDF /* WLCheckoutViewController.swift */; };
-		E3F3AAD875BFBC3C27B85F2C5276CD39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		41A2313117D535CF15DF776ABAF40D28 /* PBXContainerItemProxy */ = {
+		57D8257825A5835C38DE9CA870007844 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 709657941172B102595B4D3A5CEB006B;
 			remoteInfo = weipl_checkout;
 		};
-		DCBA898C306B0915327614EAD339C4A9 /* PBXContainerItemProxy */ = {
+		99AE1AE41D863DE4C6C877D3DDBCD750 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -41,54 +46,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		043F74E82C223C77B4B163D533FE7A5E /* Pods-weipl_checkout_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-weipl_checkout_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		04D75AB95726F80C5F3F84BC5EF0EBE3 /* Pods-weipl_checkout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-weipl_checkout_Example.modulemap"; sourceTree = "<group>"; };
-		0A04276E984DEC57C86A0522FD2AC938 /* Pods-weipl_checkout_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-weipl_checkout_Tests-dummy.m"; sourceTree = "<group>"; };
-		116A54E2D6C7F0A016021D23D0285E47 /* weipl_checkout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "weipl_checkout-prefix.pch"; sourceTree = "<group>"; };
-		1535F7F729B11222E0C7156C9F1E8C11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		16E1BFBDF164573D5881446C688550FF /* Pods-weipl_checkout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weipl_checkout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		23DF0FE904850B98553EC6DE0ED60C7E /* weipl_checkout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "weipl_checkout-umbrella.h"; sourceTree = "<group>"; };
-		26994666119EAA8135FC6C58D69B7284 /* weipl_checkout .h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "weipl_checkout .h"; path = "weipl_checkout/Classes/weipl_checkout .h"; sourceTree = "<group>"; };
-		26A77602E52370F183904B065F8D4971 /* weipl_checkout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = weipl_checkout.modulemap; sourceTree = "<group>"; };
-		27DCDAA6738F1CF89CA5DEDAFCFB0B91 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = weipl_checkout/Classes/Extensions.swift; sourceTree = "<group>"; };
-		2A01548A6E473C78EDB19DFA1C5C8BDF /* WLCheckoutViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WLCheckoutViewController.swift; path = weipl_checkout/Classes/WLCheckoutViewController.swift; sourceTree = "<group>"; };
-		2FF256114109718FF04042B46114EA4B /* weipl_checkout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = weipl_checkout.release.xcconfig; sourceTree = "<group>"; };
+		0D1365F746B8FFF686095E4199055F0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0DDCFB4B4780EE464C29B088A9D49F64 /* weipl_checkout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = weipl_checkout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		25F3ADAC4E26BDDB59A0F2B3E9297570 /* Pods-weipl_checkout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weipl_checkout_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		384FF79A410AC371AB142A8D69C82C5E /* Pods-weipl_checkout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weipl_checkout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3AAF132BEF3C279573F0956C2E42CD15 /* Pods-weipl_checkout_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-weipl_checkout_Example"; path = Pods_weipl_checkout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DBE0C70A5CB56A57CBD1E8978115694 /* Utility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utility.swift; path = weipl_checkout/Classes/Utility.swift; sourceTree = "<group>"; };
-		46AC434B9EF132CEA7E2E85C6A08C7AD /* Pods-weipl_checkout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-weipl_checkout_Example-dummy.m"; sourceTree = "<group>"; };
-		4EDAF96C0A9AABF0F3E108816A5F17A5 /* Pods-weipl_checkout_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-weipl_checkout_Tests-umbrella.h"; sourceTree = "<group>"; };
-		51FFEF5C1826A688DAB2D49E4B6E4B66 /* Pods-weipl_checkout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weipl_checkout_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		595BCA28677275B5075480B52CA0DEC6 /* weipl_checkout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = weipl_checkout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		71D9BF4DD2D8B85CDECBBC9A1AF91D79 /* Pods-weipl_checkout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-weipl_checkout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		42232550C014EF4E73C6E35397324FEF /* Pods-weipl_checkout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weipl_checkout_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		467DF21E93D59D356608413280FA72B9 /* Pods-weipl_checkout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-weipl_checkout_Tests.modulemap"; sourceTree = "<group>"; };
+		53C7AF5BA4A7028438C99932817CAFBF /* Pods-weipl_checkout_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-weipl_checkout_Tests-Info.plist"; sourceTree = "<group>"; };
+		5839AED5969947561DF918F8C784F113 /* Pods-weipl_checkout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-weipl_checkout_Example-dummy.m"; sourceTree = "<group>"; };
+		5CF4EF03057073221F818C7BA4B3A0E6 /* Pods-weipl_checkout_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-weipl_checkout_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6D881A835156F828905121E7D7DCC132 /* weipl_checkout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = weipl_checkout.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7D2472BECA9ADE5103089E6AF10E2F35 /* weipl_checkout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "weipl_checkout-Info.plist"; sourceTree = "<group>"; };
-		87AF2722F7FB3069293DD84AC0983F18 /* WLCheckoutViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = WLCheckoutViewController.xib; path = weipl_checkout/Classes/WLCheckoutViewController.xib; sourceTree = "<group>"; };
-		97A6F15C290EA95B80567556CFFB295B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1D14F45DF00E2EBC14538570E881BF7 /* Pods-weipl_checkout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weipl_checkout_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AA09CE1CABBCD8AC68CD81E5F8040BBC /* weipl_checkout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "weipl_checkout-dummy.m"; sourceTree = "<group>"; };
-		B014A28E2BAC97C6EF05CC3408647478 /* Pods-weipl_checkout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-weipl_checkout_Example-umbrella.h"; sourceTree = "<group>"; };
-		BEDE4EAD5D558C86AF6BB31D97CF54BC /* Pods-weipl_checkout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-weipl_checkout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		BF327E812445C16F1FD04EBA914231C0 /* weipl_checkout */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = weipl_checkout; path = weipl_checkout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0F2A27F31C65E1D28FBF154B281F282 /* Pods-weipl_checkout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-weipl_checkout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C1B17A96C5A715E19C4AC030F1E9B154 /* Pods-weipl_checkout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-weipl_checkout_Tests.modulemap"; sourceTree = "<group>"; };
-		CA7C70357FC4C276E2849C86936CC85E /* Pods-weipl_checkout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-weipl_checkout_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D412BBB722C05EA4565CFF7772F44AD5 /* Pods-weipl_checkout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weipl_checkout_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DDBF2AC5FFAE2B826F9BBEB52F68E038 /* weipl_checkout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = weipl_checkout.debug.xcconfig; sourceTree = "<group>"; };
-		ECA3E0B66CB526310892F4C1DE49B30E /* Pods-weipl_checkout_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-weipl_checkout_Tests-Info.plist"; sourceTree = "<group>"; };
+		7752C572963BC3FC17F3A0E0DB452440 /* Pods-weipl_checkout_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-weipl_checkout_Tests-dummy.m"; sourceTree = "<group>"; };
+		7DF8C7C58F161A228D123956321B8A2A /* Pods-weipl_checkout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-weipl_checkout_Example-umbrella.h"; sourceTree = "<group>"; };
+		7FFC351220545998066C5776C1586BE0 /* Pods-weipl_checkout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-weipl_checkout_Example.modulemap"; sourceTree = "<group>"; };
+		8604F7AD5720B263A70065CB59B353E5 /* Pods-weipl_checkout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-weipl_checkout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B0FCB435AD254EDE466363C3C9D41C9 /* Pods-weipl_checkout_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-weipl_checkout_Tests-umbrella.h"; sourceTree = "<group>"; };
+		95BEFB83F7C0B5E99EEA6FE953EA84C9 /* Pods-weipl_checkout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-weipl_checkout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3CB67B7C7149B9C3C14E02BAD95257F /* weipl_checkout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = weipl_checkout.release.xcconfig; sourceTree = "<group>"; };
+		D4875F24243AA336BC6D46672CEC4A66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D92BD5626573660D652B5DCD3085CC71 /* Pods-weipl_checkout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-weipl_checkout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D9317816FD46BBF3F64541E972EA6314 /* Pods-weipl_checkout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weipl_checkout_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E2139F7854CE4A56D65D885A4AB8F7C5 /* Pods-weipl_checkout_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-weipl_checkout_Example-Info.plist"; sourceTree = "<group>"; };
 		F3E50FAAF3F9F96D27D91B78FE27DEF3 /* Pods-weipl_checkout_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-weipl_checkout_Tests"; path = Pods_weipl_checkout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5B036E07C920C24014A290DF474DC93 /* Pods-weipl_checkout_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-weipl_checkout_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8542CA02B81E2230121173A70806BA0B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E3F3AAD875BFBC3C27B85F2C5276CD39 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8E66CAD78B251F581969C9F80EE34D3D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -108,30 +93,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		39B2385B4E5C20EC2D186F3195F5D488 /* Pods-weipl_checkout_Tests */ = {
+		20670F80C0EAC201EAFA7FCB3AF33C95 /* Pods-weipl_checkout_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				C1B17A96C5A715E19C4AC030F1E9B154 /* Pods-weipl_checkout_Tests.modulemap */,
-				71D9BF4DD2D8B85CDECBBC9A1AF91D79 /* Pods-weipl_checkout_Tests-acknowledgements.markdown */,
-				043F74E82C223C77B4B163D533FE7A5E /* Pods-weipl_checkout_Tests-acknowledgements.plist */,
-				0A04276E984DEC57C86A0522FD2AC938 /* Pods-weipl_checkout_Tests-dummy.m */,
-				ECA3E0B66CB526310892F4C1DE49B30E /* Pods-weipl_checkout_Tests-Info.plist */,
-				4EDAF96C0A9AABF0F3E108816A5F17A5 /* Pods-weipl_checkout_Tests-umbrella.h */,
-				16E1BFBDF164573D5881446C688550FF /* Pods-weipl_checkout_Tests.debug.xcconfig */,
-				D412BBB722C05EA4565CFF7772F44AD5 /* Pods-weipl_checkout_Tests.release.xcconfig */,
+				467DF21E93D59D356608413280FA72B9 /* Pods-weipl_checkout_Tests.modulemap */,
+				D92BD5626573660D652B5DCD3085CC71 /* Pods-weipl_checkout_Tests-acknowledgements.markdown */,
+				5CF4EF03057073221F818C7BA4B3A0E6 /* Pods-weipl_checkout_Tests-acknowledgements.plist */,
+				7752C572963BC3FC17F3A0E0DB452440 /* Pods-weipl_checkout_Tests-dummy.m */,
+				53C7AF5BA4A7028438C99932817CAFBF /* Pods-weipl_checkout_Tests-Info.plist */,
+				8B0FCB435AD254EDE466363C3C9D41C9 /* Pods-weipl_checkout_Tests-umbrella.h */,
+				384FF79A410AC371AB142A8D69C82C5E /* Pods-weipl_checkout_Tests.debug.xcconfig */,
+				25F3ADAC4E26BDDB59A0F2B3E9297570 /* Pods-weipl_checkout_Tests.release.xcconfig */,
 			);
 			name = "Pods-weipl_checkout_Tests";
 			path = "Target Support Files/Pods-weipl_checkout_Tests";
-			sourceTree = "<group>";
-		};
-		4BC5192970D096B4CE2278F4950B4664 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1535F7F729B11222E0C7156C9F1E8C11 /* LICENSE */,
-				97A6F15C290EA95B80567556CFFB295B /* README.md */,
-				595BCA28677275B5075480B52CA0DEC6 /* weipl_checkout.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -142,80 +117,68 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6161653A56E97D01262FF41601DF9ADF /* Pods-weipl_checkout_Example */ = {
+		589F7ADA5B248A607400918FEFA5D6AA /* Pods-weipl_checkout_Example */ = {
 			isa = PBXGroup;
 			children = (
-				04D75AB95726F80C5F3F84BC5EF0EBE3 /* Pods-weipl_checkout_Example.modulemap */,
-				C0F2A27F31C65E1D28FBF154B281F282 /* Pods-weipl_checkout_Example-acknowledgements.markdown */,
-				BEDE4EAD5D558C86AF6BB31D97CF54BC /* Pods-weipl_checkout_Example-acknowledgements.plist */,
-				46AC434B9EF132CEA7E2E85C6A08C7AD /* Pods-weipl_checkout_Example-dummy.m */,
-				CA7C70357FC4C276E2849C86936CC85E /* Pods-weipl_checkout_Example-frameworks.sh */,
-				F5B036E07C920C24014A290DF474DC93 /* Pods-weipl_checkout_Example-Info.plist */,
-				B014A28E2BAC97C6EF05CC3408647478 /* Pods-weipl_checkout_Example-umbrella.h */,
-				51FFEF5C1826A688DAB2D49E4B6E4B66 /* Pods-weipl_checkout_Example.debug.xcconfig */,
-				A1D14F45DF00E2EBC14538570E881BF7 /* Pods-weipl_checkout_Example.release.xcconfig */,
+				7FFC351220545998066C5776C1586BE0 /* Pods-weipl_checkout_Example.modulemap */,
+				95BEFB83F7C0B5E99EEA6FE953EA84C9 /* Pods-weipl_checkout_Example-acknowledgements.markdown */,
+				8604F7AD5720B263A70065CB59B353E5 /* Pods-weipl_checkout_Example-acknowledgements.plist */,
+				5839AED5969947561DF918F8C784F113 /* Pods-weipl_checkout_Example-dummy.m */,
+				E2139F7854CE4A56D65D885A4AB8F7C5 /* Pods-weipl_checkout_Example-Info.plist */,
+				7DF8C7C58F161A228D123956321B8A2A /* Pods-weipl_checkout_Example-umbrella.h */,
+				42232550C014EF4E73C6E35397324FEF /* Pods-weipl_checkout_Example.debug.xcconfig */,
+				D9317816FD46BBF3F64541E972EA6314 /* Pods-weipl_checkout_Example.release.xcconfig */,
 			);
 			name = "Pods-weipl_checkout_Example";
 			path = "Target Support Files/Pods-weipl_checkout_Example";
 			sourceTree = "<group>";
 		};
-		7115E96379AB3CDAA4BE0D43B29FB6C9 /* Products */ = {
+		98B97778A2758CF6E709EEBAE2CAE40A /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				3AAF132BEF3C279573F0956C2E42CD15 /* Pods-weipl_checkout_Example */,
 				F3E50FAAF3F9F96D27D91B78FE27DEF3 /* Pods-weipl_checkout_Tests */,
-				BF327E812445C16F1FD04EBA914231C0 /* weipl_checkout */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		723F870EE1158B756EE177329326A5D0 /* Support Files */ = {
+		A3FAFB666655869E33E74B8895C68006 /* weipl_checkout */ = {
 			isa = PBXGroup;
 			children = (
-				26A77602E52370F183904B065F8D4971 /* weipl_checkout.modulemap */,
-				AA09CE1CABBCD8AC68CD81E5F8040BBC /* weipl_checkout-dummy.m */,
-				7D2472BECA9ADE5103089E6AF10E2F35 /* weipl_checkout-Info.plist */,
-				116A54E2D6C7F0A016021D23D0285E47 /* weipl_checkout-prefix.pch */,
-				23DF0FE904850B98553EC6DE0ED60C7E /* weipl_checkout-umbrella.h */,
-				DDBF2AC5FFAE2B826F9BBEB52F68E038 /* weipl_checkout.debug.xcconfig */,
-				2FF256114109718FF04042B46114EA4B /* weipl_checkout.release.xcconfig */,
+				D9C62830D069DEC51076862F99C002DC /* Pod */,
+				C1644F9E128D90EE910491B3D0F10761 /* Support Files */,
+			);
+			name = weipl_checkout;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C1644F9E128D90EE910491B3D0F10761 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D881A835156F828905121E7D7DCC132 /* weipl_checkout.debug.xcconfig */,
+				A3CB67B7C7149B9C3C14E02BAD95257F /* weipl_checkout.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/weipl_checkout";
 			sourceTree = "<group>";
 		};
-		7EFFDE5A33D9575215D5336B74FF365D /* Targets Support Files */ = {
+		CF0678D2F6AEB9553D0AF12D31DD6EEC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6161653A56E97D01262FF41601DF9ADF /* Pods-weipl_checkout_Example */,
-				39B2385B4E5C20EC2D186F3195F5D488 /* Pods-weipl_checkout_Tests */,
+				589F7ADA5B248A607400918FEFA5D6AA /* Pods-weipl_checkout_Example */,
+				20670F80C0EAC201EAFA7FCB3AF33C95 /* Pods-weipl_checkout_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		8F738CB7CE6A5579847A7D3DC7E6CA04 /* weipl_checkout */ = {
-			isa = PBXGroup;
-			children = (
-				27DCDAA6738F1CF89CA5DEDAFCFB0B91 /* Extensions.swift */,
-				3DBE0C70A5CB56A57CBD1E8978115694 /* Utility.swift */,
-				26994666119EAA8135FC6C58D69B7284 /* weipl_checkout .h */,
-				2A01548A6E473C78EDB19DFA1C5C8BDF /* WLCheckoutViewController.swift */,
-				87AF2722F7FB3069293DD84AC0983F18 /* WLCheckoutViewController.xib */,
-				4BC5192970D096B4CE2278F4950B4664 /* Pod */,
-				723F870EE1158B756EE177329326A5D0 /* Support Files */,
-			);
-			name = weipl_checkout;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D458EE3714490DD44F87735ABFC7DE4C /* Development Pods */,
+				E64A7728669ACE0428F97EAD0594A45E /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				7115E96379AB3CDAA4BE0D43B29FB6C9 /* Products */,
-				7EFFDE5A33D9575215D5336B74FF365D /* Targets Support Files */,
+				98B97778A2758CF6E709EEBAE2CAE40A /* Products */,
+				CF0678D2F6AEB9553D0AF12D31DD6EEC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -227,10 +190,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D458EE3714490DD44F87735ABFC7DE4C /* Development Pods */ = {
+		D9C62830D069DEC51076862F99C002DC /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8F738CB7CE6A5579847A7D3DC7E6CA04 /* weipl_checkout */,
+				0D1365F746B8FFF686095E4199055F0F /* LICENSE */,
+				D4875F24243AA336BC6D46672CEC4A66 /* README.md */,
+				0DDCFB4B4780EE464C29B088A9D49F64 /* weipl_checkout.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E64A7728669ACE0428F97EAD0594A45E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3FAFB666655869E33E74B8895C68006 /* weipl_checkout */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -254,36 +227,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E73A8EAE31437C06D65CD94490C7F123 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				822B1BA76AD43113D4D1F4A46DBF2C8D /* weipl_checkout .h in Headers */,
-				17E5F442F4F6C36A006991C0116E9BD8 /* weipl_checkout-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		709657941172B102595B4D3A5CEB006B /* weipl_checkout */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B30C44086FD8BFB407C495230047FC26 /* Build configuration list for PBXNativeTarget "weipl_checkout" */;
-			buildPhases = (
-				E73A8EAE31437C06D65CD94490C7F123 /* Headers */,
-				3607BF3C76968C24E5CBEECD4C7D44B2 /* Sources */,
-				8542CA02B81E2230121173A70806BA0B /* Frameworks */,
-				9689527F6A9B04C2FCD7E5B2011082D3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = weipl_checkout;
-			productName = weipl_checkout;
-			productReference = BF327E812445C16F1FD04EBA914231C0 /* weipl_checkout */;
-			productType = "com.apple.product-type.framework";
-		};
 		CA93FBB1132D7567397F23A1D1F002C3 /* Pods-weipl_checkout_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F75584BDCB155FE807839F58B99A7849 /* Build configuration list for PBXNativeTarget "Pods-weipl_checkout_Example" */;
@@ -296,7 +242,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				09FEC3AD32FCAFB8BF691D5724FB2E56 /* PBXTargetDependency */,
+				B290F4B4D3F76D50D8DA2B4B7EE7F4FF /* PBXTargetDependency */,
 			);
 			name = "Pods-weipl_checkout_Example";
 			productName = Pods_weipl_checkout_Example;
@@ -315,7 +261,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6EF0E7A109A711AD917C579A1CD275E2 /* PBXTargetDependency */,
+				CD78B860B777AB38526030514C8595AA /* PBXTargetDependency */,
 			);
 			name = "Pods-weipl_checkout_Tests";
 			productName = Pods_weipl_checkout_Tests;
@@ -340,7 +286,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 7115E96379AB3CDAA4BE0D43B29FB6C9 /* Products */;
+			productRefGroup = 98B97778A2758CF6E709EEBAE2CAE40A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -353,13 +299,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		1925B596CB4D55E9573E573F94537461 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9689527F6A9B04C2FCD7E5B2011082D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -384,18 +323,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3607BF3C76968C24E5CBEECD4C7D44B2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				92E6FF71F5DDA2B9D6BD4944D40FCD4A /* Extensions.swift in Sources */,
-				BDCFA848869D19B0B7CBB27FCD2DF361 /* Utility.swift in Sources */,
-				17C62C4163C0083ECC451D6506B52115 /* weipl_checkout-dummy.m in Sources */,
-				C491D58A2132728E679CBA2C0FC8A92E /* WLCheckoutViewController.swift in Sources */,
-				382D35BE61769803ED416B0633FD4093 /* WLCheckoutViewController.xib in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		45570C14C19F33CA56E5CB513124BA82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -407,86 +334,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		09FEC3AD32FCAFB8BF691D5724FB2E56 /* PBXTargetDependency */ = {
+		B290F4B4D3F76D50D8DA2B4B7EE7F4FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = weipl_checkout;
 			target = 709657941172B102595B4D3A5CEB006B /* weipl_checkout */;
-			targetProxy = 41A2313117D535CF15DF776ABAF40D28 /* PBXContainerItemProxy */;
+			targetProxy = 57D8257825A5835C38DE9CA870007844 /* PBXContainerItemProxy */;
 		};
-		6EF0E7A109A711AD917C579A1CD275E2 /* PBXTargetDependency */ = {
+		CD78B860B777AB38526030514C8595AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-weipl_checkout_Example";
 			target = CA93FBB1132D7567397F23A1D1F002C3 /* Pods-weipl_checkout_Example */;
-			targetProxy = DCBA898C306B0915327614EAD339C4A9 /* PBXContainerItemProxy */;
+			targetProxy = 99AE1AE41D863DE4C6C877D3DDBCD750 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0965EF5EB6990CEFBC2F5D6C3EE927F6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDBF2AC5FFAE2B826F9BBEB52F68E038 /* weipl_checkout.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/weipl_checkout/weipl_checkout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/weipl_checkout/weipl_checkout-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/weipl_checkout/weipl_checkout.modulemap";
-				PRODUCT_MODULE_NAME = weipl_checkout;
-				PRODUCT_NAME = weipl_checkout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		21C12ACB97AEFEC5EC16DDBD120AB0B3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FF256114109718FF04042B46114EA4B /* weipl_checkout.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/weipl_checkout/weipl_checkout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/weipl_checkout/weipl_checkout-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/weipl_checkout/weipl_checkout.modulemap";
-				PRODUCT_MODULE_NAME = weipl_checkout;
-				PRODUCT_NAME = weipl_checkout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -553,9 +415,24 @@
 			};
 			name = Debug;
 		};
+		41973E11E081B0F359BEEC2C57EFF2C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D881A835156F828905121E7D7DCC132 /* weipl_checkout.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		5250D584B679E270FDC990698CE582F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51FFEF5C1826A688DAB2D49E4B6E4B66 /* Pods-weipl_checkout_Example.debug.xcconfig */;
+			baseConfigurationReference = 42232550C014EF4E73C6E35397324FEF /* Pods-weipl_checkout_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -642,8 +519,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -651,7 +527,7 @@
 		};
 		A4AB73D8E5EAD15D5BF05D36A0EF9B15 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D412BBB722C05EA4565CFF7772F44AD5 /* Pods-weipl_checkout_Tests.release.xcconfig */;
+			baseConfigurationReference = 25F3ADAC4E26BDDB59A0F2B3E9297570 /* Pods-weipl_checkout_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -686,7 +562,7 @@
 		};
 		A57594F298A4FDA4CB6E05DF928CA6DF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16E1BFBDF164573D5881446C688550FF /* Pods-weipl_checkout_Tests.debug.xcconfig */;
+			baseConfigurationReference = 384FF79A410AC371AB142A8D69C82C5E /* Pods-weipl_checkout_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -720,7 +596,7 @@
 		};
 		DF1496EE3A7FCE7ED144AA73C68F111D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1D14F45DF00E2EBC14538570E881BF7 /* Pods-weipl_checkout_Example.release.xcconfig */;
+			baseConfigurationReference = D9317816FD46BBF3F64541E972EA6314 /* Pods-weipl_checkout_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -753,23 +629,39 @@
 			};
 			name = Release;
 		};
+		E3AFC6701F328A2914B35CD984042EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3CB67B7C7149B9C3C14E02BAD95257F /* weipl_checkout.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		109B1A6EF385B15A34A4044EAB161ED8 /* Build configuration list for PBXAggregateTarget "weipl_checkout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41973E11E081B0F359BEEC2C57EFF2C5 /* Debug */,
+				E3AFC6701F328A2914B35CD984042EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
 				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B30C44086FD8BFB407C495230047FC26 /* Build configuration list for PBXNativeTarget "weipl_checkout" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0965EF5EB6990CEFBC2F5D6C3EE927F6 /* Debug */,
-				21C12ACB97AEFEC5EC16DDBD120AB0B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1420"
+   LastUpgradeVersion = "1300"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "709657941172B102595B4D3A5CEB006B"
-               BuildableName = "weipl_checkout.framework"
+               BuildableName = "weipl_checkout"
                BlueprintName = "weipl_checkout"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

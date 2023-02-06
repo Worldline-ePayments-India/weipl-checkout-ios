@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		139EBD41A73A058C739BA2A1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4DCD899699E6522DD565D415 /* Pods-weipl_checkout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weipl_checkout_Tests.release.xcconfig"; path = "Target Support Files/Pods-weipl_checkout_Tests/Pods-weipl_checkout_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		509DE848D5382216C78FFBFF /* weipl_checkout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = weipl_checkout.podspec; path = ../weipl_checkout.podspec; sourceTree = "<group>"; };
+		509DE848D5382216C78FFBFF /* weipl_checkout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = weipl_checkout.podspec; path = ../weipl_checkout.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* weipl_checkout_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weipl_checkout_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -170,7 +170,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				7FBBAB23B0716ED9479EB88F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -264,24 +263,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7FBBAB23B0716ED9479EB88F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-weipl_checkout_Example/Pods-weipl_checkout_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/weipl_checkout/weipl_checkout.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/weipl_checkout.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-weipl_checkout_Example/Pods-weipl_checkout_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		81E4A8EC1F6D1ECF6B67A70D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
