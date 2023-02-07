@@ -9,7 +9,6 @@ This is official native SDK to integrate Worldline ePayments India Checkout.
 - iOS
 
 **Note**:
-- Make sure that you set project target for **Frameworks, Libraries, and Embedded Content** option should be **Embed & Sign**. 
 - We support Xcode 12+ versions. 
 
 ## Integration code
@@ -87,9 +86,11 @@ it, simply add the following line to your Podfile:
 pod 'weipl_checkout'
 ```
 
-## Author
+## Contributing
 
-weipl-checkout-ios, ashish.palaskar@worldline.com
+See the [CONTRIBUTING] document.
+Thank you, [contributors]!
+
 
 ## License
 

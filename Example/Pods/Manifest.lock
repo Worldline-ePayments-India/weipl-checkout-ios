@@ -1,5 +1,5 @@
 PODS:
-  - weipl_checkout (1.1.0)
+  - weipl_checkout (1.1.1)
 
 DEPENDENCIES:
   - weipl_checkout (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  weipl_checkout: 44935deb0f277527ea61d24921a403d80f335f5b
+  weipl_checkout: 5c75d8904a7a8780182ab140ee75cd4d6ea9dc27
 
 PODFILE CHECKSUM: bb4b7917f329dd95fd28220a54e5150436d2f323
 

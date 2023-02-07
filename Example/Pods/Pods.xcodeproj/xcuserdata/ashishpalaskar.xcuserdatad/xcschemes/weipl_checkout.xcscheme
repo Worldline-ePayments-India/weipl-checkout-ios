@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "709657941172B102595B4D3A5CEB006B"
-               BuildableName = "weipl_checkout"
+               BuildableName = "weipl_checkout.framework"
                BlueprintName = "weipl_checkout"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

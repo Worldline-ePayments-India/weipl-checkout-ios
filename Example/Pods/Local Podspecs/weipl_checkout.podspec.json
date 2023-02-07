@@ -1,6 +1,6 @@
 {
   "name": "weipl_checkout",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "summary": "iOS Checkout SDK for Worldline ePayments India.",
   "description": "This is official native SDK to integrate Worldline ePayments India Checkout.",
   "homepage": "https://github.com/Worldline-ePayments-India/weipl-checkout-ios",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Worldline-ePayments-India/weipl-checkout-ios.git",
-    "tag": "1.1.0"
+    "tag": "1.1.1"
   },
   "platforms": {
     "ios": "12.0"
