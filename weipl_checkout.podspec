@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.0'
   s.swift_version = '4.2'
-  s.source_files = 'weipl_checkout/Classes/**/*'
+  #s.source_files = 'weipl_checkout/Classes/**/*'
   s.ios.vendored_frameworks = 'weipl_checkout/weipl_checkout.framework'
 
   # s.resource_bundles = {
