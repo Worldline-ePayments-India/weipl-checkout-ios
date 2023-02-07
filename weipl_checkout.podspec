@@ -22,22 +22,14 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/Worldline-ePayments-India/weipl-checkout-ios'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'weipl-checkout-ios' => 'ashish.palaskar@worldline.com' }
   s.source           = { :git => 'https://github.com/Worldline-ePayments-India/weipl-checkout-ios.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
   s.swift_version = '4.2'
-  #s.source_files = 'weipl_checkout/**/*'
-  s.ios.vendored_frameworks = 'weipl-checkout-ios/weipl_checkout.framework'
+  s.source_files = "weipl_checkout.framework/Headers/*.h"
+  s.public_header_files = "weipl_checkout.framework/Headers/*.h"
+  s.ios.vendored_frameworks = 'weipl_checkout.framework'
 
-  # s.resource_bundles = {
-  #   'weipl_checkout' => ['weipl_checkout/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
