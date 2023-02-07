@@ -8,6 +8,7 @@
 
 import UIKit
 import weipl_checkout
+import Stripe
 
 extension Date {
     static func getCurrentDate() -> String {

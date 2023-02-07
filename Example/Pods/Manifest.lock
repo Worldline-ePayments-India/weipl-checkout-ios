@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 0a29d4b8f80de55f77526ab6a2f812387e6605bd
+PODS:
+  - weipl_checkout (1.1.1)
+
+DEPENDENCIES:
+  - weipl_checkout
+
+SPEC REPOS:
+  trunk:
+    - weipl_checkout
+
+SPEC CHECKSUMS:
+  weipl_checkout: 5c75d8904a7a8780182ab140ee75cd4d6ea9dc27
+
+PODFILE CHECKSUM: 452ceee10aad9ea5899f5f6ebb586c7f680ac125
 
 COCOAPODS: 1.11.3
