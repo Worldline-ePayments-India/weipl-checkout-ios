@@ -86,13 +86,6 @@ it, simply add the following line to your Podfile:
 pod 'weipl_checkout'
 ```
 
-## Contributing
-
-See the [CONTRIBUTING] document.
-Thank you, [contributors]!
-
-
 ## License
 
 weipl_checkout is available under the MIT license. See the LICENSE file for more info.
-
