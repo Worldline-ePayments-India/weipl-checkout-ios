@@ -8,7 +8,6 @@
 
 import UIKit
 import weipl_checkout
-import Stripe
 
 extension Date {
     static func getCurrentDate() -> String {
@@ -16,7 +15,6 @@ extension Date {
         dateFormatter.dateFormat = "yyyyMMddHHmm"
         return dateFormatter.string(from: Date())
     }
-
 }
 
 class ViewController: UIViewController {
@@ -33,6 +31,16 @@ class ViewController: UIViewController {
         
         WLCheckout = WLCheckoutViewController()
         WLCheckout?.preloadData()
+        
+        print("1----")
+        DispatchQueue.main.async {
+            print("2---")
+            DispatchQueue.main.async {
+                print("3---")
+            }
+            print("4----")
+        }
+        print("5----")
     }
 
     @IBAction func paymentbtn(_ sender: Any) {
@@ -68,7 +76,7 @@ class ViewController: UIViewController {
                 "consumerMobileNo": "9136541011",//mobileNumberTF.text!,
                 "consumerEmailId": "ashu548@yahoo.com",//consumerEmailTF.text!,
                 // "accountNo": "",
-                "txnId": Date.getCurrentDate(),
+                "txnId": "918392424883970123487591461313",//Date.getCurrentDate(),
                 "items": [[
                     "itemId": "test",//itemIdTF.text!,
                     "amount": "1",//amountTF.text!,
