@@ -33,5 +33,4 @@ Pod::Spec.new do |s|
   s.exclude_files = 'weipl_checkout.framework/*.plist'
   s.vendored_frameworks = 'weipl_checkout/weipl_checkout.framework'
 
-
 end
