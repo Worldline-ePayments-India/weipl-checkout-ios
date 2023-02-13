@@ -14,8 +14,6 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
          .package(url: "https://github.com/Worldline-ePayments-India/weipl-checkout-ios.git", from: "1.1.1"),
-         path: "weipl_checkout/Sources",
-         exclude: ("Info.plist"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -23,6 +21,7 @@ let package = Package(
         .target(
             name: "weipl_checkout",
             dependencies: []),
+			path: "weipl_checkout/Sources",
             publicHeadersPath: "headers"
         .testTarget(
             name: "weipl_checkoutTests",
