@@ -24,9 +24,11 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/Worldline-ePayments-India/weipl-checkout-ios'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'weipl-checkout-ios' => 'ashish.palaskar@worldline.com' }
-  s.source           = { :git => 'https://github.com/Worldline-ePayments-India/weipl-checkout-ios.git', :tag => s.version.to_s }
+  #s.source           = { :https => 'https://drive.google.com/uc?export=download&id=10Wwjo0a8a3BkKNDVC7gPy4rzr1iZ5m0l', :tag => s.version.to_s }
+  s.source = { :https => 'https://drive.google.com/file/d/10Wwjo0a8a3BkKNDVC7gPy4rzr1iZ5m0l/view?usp=share_link' }
+
   s.ios.deployment_target = '12.0'
   s.swift_version = '4.2'
   s.source_files = 'weipl_checkout/Classes/Headers/**/*'
- 
+  s.vendored_frameworks = 'weipl_checkout.framework' 
 end
