@@ -23,7 +23,7 @@ let package = Package(
         .target(
             name: "weipl_checkout",
             dependencies: []),
-			path: "weipl_checkout/Sources",
+			path: "weipl-checkout-ios/Sources",
             publicHeadersPath: "headers"
         .testTarget(
             name: "weipl_checkoutTests",
