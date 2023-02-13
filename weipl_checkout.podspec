@@ -33,4 +33,7 @@ Pod::Spec.new do |s|
   s.exclude_files = 'weipl_checkout.framework/*.plist'
   s.vendored_frameworks = 'weipl_checkout/weipl_checkout.framework'
 
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
 end
