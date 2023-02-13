@@ -14,7 +14,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
          .package(url: "https://github.com/Worldline-ePayments-India/weipl-checkout-ios.git", from: "1.1.1"),
-         path: "weipl_checkout/Sources/weipl_checkout",
+         path: "Sources/weipl_checkout",
          exclude: ("Info.plist"),
     ],
     targets: [
