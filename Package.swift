@@ -21,8 +21,6 @@ let package = Package(
         .target(
             name: "weipl_checkout",
             dependencies: []),
-			path: "weipl-checkout-ios/Sources",
-            publicHeadersPath: "headers"
         .testTarget(
             name: "weipl_checkoutTests",
             dependencies: ["weipl_checkout"]),
