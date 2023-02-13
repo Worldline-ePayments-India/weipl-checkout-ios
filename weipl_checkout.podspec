@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'weipl_checkout'
-  s.version          = '1.1.4'
+  s.version          = '1.1.5'
   s.summary          = 'iOS Checkout SDK for Worldline ePayments India.'
 
 # This description is used to generate tags and improve search results.
