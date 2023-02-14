@@ -23,13 +23,6 @@ let package = Package(
             name: "weipl_checkout",
             dependencies: [],
             path: "weipl_checkout/weipl_checkout.framework",
-            exclude: ["Info.plist"],
-            resources: [
-            ]
-            publicHeadersPath: ".",
-			    cSettings: [
-				    .headerSearchPath("."),
-				    .headerSearchPath("Public"),
-			    ])
+            exclude: ["Info.plist"])
     ]
 )
