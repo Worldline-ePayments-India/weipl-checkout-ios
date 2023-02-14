@@ -21,6 +21,7 @@ let package = Package(
             exclude: ["Info.plist"],
             resources: [
             ]
+            publicHeadersPath: "Headers"
         )
     ]
 )
