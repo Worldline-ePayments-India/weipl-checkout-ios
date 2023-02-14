@@ -21,9 +21,6 @@ let package = Package(
             exclude: ["Info.plist"],
             resources: [
             ]
-            cSettings: [
-                .headerSearchPath("weipl_checkout/weipl_checkout.framework/**"),
-            ]
         )
     ]
 )
