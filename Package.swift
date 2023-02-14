@@ -21,6 +21,9 @@ let package = Package(
         .target(
             name: "weipl_checkout",
             dependencies: []),
+            resources: [
+                .copy("weipl_checkout/weipl_checkout.framework")
+            ]
         .testTarget(
             name: "weipl_checkoutTests",
             dependencies: ["weipl_checkout"]),
