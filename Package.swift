@@ -14,7 +14,7 @@ let package = Package(
     targets: [
         .target(
             name: "weipl_checkout",
-            dependencies: [],
+            dependencies: ["weipl_checkout.framework"],
             path: "weipl_checkout/weipl_checkout.framework",
             exclude: ["Info.plist"])
     ]
