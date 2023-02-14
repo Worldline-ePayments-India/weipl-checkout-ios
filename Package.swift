@@ -22,7 +22,7 @@ let package = Package(
             resources: [
             ]
             cSettings: [
-                .headerSearchPath("weipl_checkout.framework/**"),
+                .headerSearchPath("weipl_checkout/**"),
             ]
         )
     ]
