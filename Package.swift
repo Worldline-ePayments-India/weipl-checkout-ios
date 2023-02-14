@@ -22,7 +22,7 @@ let package = Package(
         .target(
             name: "weipl-checkout-ios",
             dependencies: [],
-            path: "Sources"),
+            exclude: ["weipl_checkout_ios.swift"]),
         .testTarget(
             name: "weipl-checkout-iosTests",
             dependencies: ["weipl-checkout-ios"]),
