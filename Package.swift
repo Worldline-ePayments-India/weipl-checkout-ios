@@ -5,25 +5,23 @@ let package = Package(
     name: "weipl_checkout",
     defaultLocalization: "en",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v13)
     ],
-    
+    products: [
+        .library(
+            name: "weipl_checkout",
+            type: .dynamic
+            targets: ["weipl_checkout"]
+        )
+    ],
     dependencies: [
-        .package(url: "https://github.com/Worldline-ePayments-India/weipl-checkout-ios.git", .exact("1.1.5")),
+        .package(url: "https://github.com/Worldline-ePayments-India/weipl-checkout-ios.git", from: "1.1.5"),
     ],
     targets: [
         .target(
             name: "weipl_checkout",
             dependencies: [],
-            path: nil,
-            sources: nil,
-            exclude: ["Info.plist"]
-            cSettings: [
-                 .headerSearchPath("Public"),
-                 .headerSearchPath("Internal"),
-                ],
-            linkerSettings: [
-                 .linkedLibrary("libc++"),
-                ])
+            path: "weipl_checkout/weipl_checkout.framework",            
+        )
     ]
 )
