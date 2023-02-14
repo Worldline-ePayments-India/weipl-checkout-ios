@@ -25,8 +25,15 @@ let package = Package(
         
         .target(
             name: "weipl_checkout",
-            dependencies: ["weipl_checkout.framework"],
-            path: "weipl_checkout/*",
-            exclude: ["Info.plist"],
+            dependencies: [],
         )
+        .binaryTarget(
+            name: "weipl_checkout", 
+            path: "weipl_checkout/weipl_checkout.framework"
+        ),
+        .testTarget(
+            name: "weipl_checkoutTests",
+            dependencies: ["cweipl_checkout"]
+        ),
+    ]
 )
