@@ -5,13 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "weipl_checkout",
-    products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
-        .library(
-            name: "weipl_checkout",
-            type: .dynamic,
-            targets: ["weipl_checkout"]),
-    ],
+  
     dependencies: [
         // Dependencies declare other packages that this package depends on.
          //.package(url: "https://github.com/Worldline-ePayments-India/weipl-checkout-ios.git", from: "1.1.5"),
@@ -21,9 +15,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "weipl_checkout",
-            dependencies: []),
-        .testTarget(
-            name: "weipl_checkoutTests",
-            dependencies: ["weipl_checkout"]),
+            dependencies: [],
+            path: "weipl_checkout"),
     ]
 )
