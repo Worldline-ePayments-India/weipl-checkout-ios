@@ -5,10 +5,16 @@ import PackageDescription
 
 let package = Package(
     name: "weipl-checkout-ios",
+    products:[
+        .library(
+            name: "weipl-checkout-ios"
+            type: .dynamic,
+            targets :["weipl-checkout-ios"]),
+    ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        //.package(url: "https://github.com/Worldline-ePayments-India/weipl-checkout-ios.git", from: "1.1.5")
+        .package(url: "https://github.com/Worldline-ePayments-India/weipl-checkout-ios.git", from: "1.1.5")
 
     ],
     targets: [
@@ -16,14 +22,15 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "weipl-checkout-ios",
-            dependencies: []),
-            
+            dependencies: []
+        ),
         .binaryTarget(
             name: "weipl_checkout",
             path: "weipl_checkout/weipl_checkout.framework"
         )
         .testTarget(
             name: "weipl-checkout-iosTests",
-            dependencies: ["weipl-checkout-ios"]),
+            dependencies: ["weipl-checkout-ios"]
+        ),
     ]
 )
