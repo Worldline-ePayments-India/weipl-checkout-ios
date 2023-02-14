@@ -5,7 +5,7 @@ let package = Package(
     name: "weipl_checkout",
     defaultLocalization: "en",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v12)
     ],
     products: [
         .library(
@@ -20,15 +20,7 @@ let package = Package(
     targets: [
         .target(
             name: "weipl_checkout",
-            exclude: ["README.md"],
-            dependencies: [],
-            resources: [
-                .copy("info.plist")
-            ]           
-        )
-        .binaryTarget(
-            name: "weipl_checkout.framework",
-            path: "weipl_checkout/weipl_checkout.framework"
+            dependencies: [],          
         )
     ]
 )
