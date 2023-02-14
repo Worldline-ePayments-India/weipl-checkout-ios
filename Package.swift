@@ -21,7 +21,7 @@ let package = Package(
             exclude: ["Info.plist"],
             resources: [
             ]
-            publicHeadersPath: "weipl_checkout/weipl_checkout.framework/Headers/.*"
+            publicHeadersPath: "weipl_checkout/**/*.{h,m,swift}"
         )
     ]
 )
