@@ -24,7 +24,10 @@ let package = Package(
             exclude: ["Info.plist"],
             resources: [
             ]
-            publicHeadersPath: "Headers"
-        )
+            publicHeadersPath: ".",
+			    cSettings: [
+				    .headerSearchPath("."),
+				    .headerSearchPath("Public"),
+			    ])
     ]
 )
