@@ -25,3 +25,4 @@ let package = Package(
             dependencies: ["weipl_checkout"]),
     ]
 )
+
