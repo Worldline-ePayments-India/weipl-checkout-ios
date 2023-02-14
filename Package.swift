@@ -20,7 +20,7 @@ let package = Package(
         .target(
             name: "weipl_checkout",
             dependencies: [],
-            path: "Sources",),
+            path: "Sources/weipl_checkout",),
 
         .testTarget(
             name: "weipl_checkoutTests",
