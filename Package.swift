@@ -14,9 +14,16 @@ let package = Package(
     targets: [
         .target(
             name: "weipl_checkout",
-            dependencies: ["weipl_checkout.framework"],
-            path: "weipl_checkout/weipl_checkout.framework",
+            dependencies: [],
+            path: nil,
+            sources: nil,
             exclude: ["Info.plist"]
-            path: ".")
+            cSettings: [
+                 .headerSearchPath("Public"),
+                 .headerSearchPath("Internal"),
+                ],
+            linkerSettings: [
+                 .linkedLibrary("libc++"),
+                ])
     ]
 )
