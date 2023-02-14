@@ -16,7 +16,7 @@ let package = Package(
     targets: [
         .target(
             name: "weipl_checkout",
-            dependencies: ["StripeCore", "StripeUICore"],
+            dependencies: ["weipl_checkout.framework"],
             path: "weipl_checkout/weipl_checkout.framework",
             exclude: ["Info.plist"],
             resources: [
