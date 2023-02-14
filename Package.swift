@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "weipl_checkout",
+    platforms: [ .iOS(.v12) ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: "https://github.com/Worldline-ePayments-India/weipl-checkout-ios.git", from: "1.1.5"),
@@ -17,6 +18,7 @@ let package = Package(
             dependencies: []),
         .testTarget(
             name: "weipl_checkoutTests",
-            dependencies: ["weipl_checkout"]),
+            dependencies: [],
+            exclude: ["Sources"]),
     ]
 )
