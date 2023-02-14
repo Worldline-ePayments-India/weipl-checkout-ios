@@ -7,7 +7,7 @@ let package = Package(
     name: "weipl_checkout",
     defaultLocalization: "en",
       platforms: [
-        .iOS(.v12)
+        .iOS(.v13)
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
@@ -24,15 +24,13 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "weipl_checkout",
-            dependencies: []
-        ),
-        .binaryTarget(
-            name: "weipl_checkout.framework", 
-            path: url("https://github.com/Worldline-ePayments-India/weipl-checkout-ios/releases/download/1.1.5/weipl_checkout.framework.zip")
-        ),
+            dependencies: [],
+            path: "weipl_checkout/weipl_checkout.framework",
+        )
         .testTarget(
-            name: "weipl_checkoutTests",
-            dependencies: ["weipl_checkout"]
-        ),
+            name: "weipl_checkout",
+            dependencies: ["weipl_checkout"],
+            path: "weipl_checkout/weipl_checkout.framework",
+        )
     ]
 )
