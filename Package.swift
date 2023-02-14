@@ -5,18 +5,11 @@ let package = Package(
     name: "weipl_checkout",
     defaultLocalization: "en",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v12)
     ],
-    swiftLanguageVersions: [
-        .v5
-    ]
-    products: [
-            .executable(name: "weipl_checkout", targets: [ "weipl_checkout.framework" ]),
-
-    ],
+    
     dependencies: [
         .package(url: "https://github.com/Worldline-ePayments-India/weipl-checkout-ios.git", .exact("1.1.5")),
-
     ],
     targets: [
         .target(
