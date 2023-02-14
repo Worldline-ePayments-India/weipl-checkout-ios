@@ -24,16 +24,11 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "weipl_checkout",
-            dependencies: ["weipl_checkout.framework"]
+            dependencies: []
         ),
         .binaryTarget(
-            name: "weipl_checkout.framework",
-            url: "https://github.com/Worldline-ePayments-India/weipl-checkout-ios/releases/download/1.1.5/weipl_checkout.framework.zip",
-            //checksum: "c246c715ac7f6fae9ef0a89e758a8514644071a164985b1e95d344a684d84621"
-        ),
-        .binaryTarget(
-            name: "weipl_checkout", 
-            path: "weipl_checkout/weipl_checkout.framework"
+            name: "weipl_checkout.framework", 
+            path: url("https://github.com/Worldline-ePayments-India/weipl-checkout-ios/releases/download/1.1.5/weipl_checkout.framework.zip")
         ),
         .testTarget(
             name: "weipl_checkoutTests",
