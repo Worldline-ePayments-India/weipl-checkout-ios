@@ -16,10 +16,6 @@ let package = Package(
     targets: [
         .target(
             name: "weipl_checkout",
-            dependencies: [],          
-        )
-        .target(
-            name: "weipl_checkout",
             dependencies: []),
         .testTarget(
             name: "weipl-checkout-iosTests",
