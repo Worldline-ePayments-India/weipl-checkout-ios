@@ -16,7 +16,6 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/Worldline-ePayments-India/weipl-checkout-ios.git", from: "1.1.5"),
     ],
-    
     targets: [
         .target(
             name: "weipl_checkout",
@@ -26,9 +25,5 @@ let package = Package(
             resources: [
             ]
         )
-        .binaryTarget(
-            name: "weipl_checkout",
-            url: "https://customers.pspdfkit.com/pspdfkit/xcframework/10.0.0.zip",
-            checksum: "bfb412ada4d291e22542c2d06b3e9f811616fb043fbd12660b0108541eb33a3c"),
     ]
 )
