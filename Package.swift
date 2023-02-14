@@ -2,11 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "weipl_checkout",
-    defaultLocalization: "en",
-    platforms: [
-        .iOS(.v12)
-    ],
+    name: "weipl-checkout-ios",
     products: [
         .library(
             name: "weipl_checkout",
@@ -22,5 +18,11 @@ let package = Package(
             name: "weipl_checkout",
             dependencies: [],          
         )
+        .target(
+            name: "weipl_checkout",
+            dependencies: []),
+        .testTarget(
+            name: "weipl-checkout-iosTests",
+            dependencies: ["weipl_checkout"]),
     ]
 )
