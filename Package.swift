@@ -22,12 +22,22 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
-        
         .target(
             name: "weipl_checkout",
-            dependencies: ["weipl_checkout.framework"],
-            path: "weipl_checkout/weipl_checkout.framework",
-            exclude: ["Info.plist"],
-        )
+            dependencies: ["weipl_checkout.framework"]
+        ),
+        .binaryTarget(
+            name: "weipl_checkout.framework",
+            url: "https://github.com/Worldline-ePayments-India/weipl-checkout-ios/releases/download/1.1.5/weipl_checkout.framework.zip",
+            //checksum: "c246c715ac7f6fae9ef0a89e758a8514644071a164985b1e95d344a684d84621"
+        ),
+        .binaryTarget(
+            name: "weipl_checkout", 
+            path: "weipl_checkout/weipl_checkout.framework"
+        ),
+        .testTarget(
+            name: "weipl_checkoutTests",
+            dependencies: ["weipl_checkout"]
+        ),
     ]
 )
