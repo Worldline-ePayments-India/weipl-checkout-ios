@@ -1,4 +1,0 @@
-framework module weipl_checkout {
-  header "weipl_checkout-Swift.h"
-  requires objc
-}
