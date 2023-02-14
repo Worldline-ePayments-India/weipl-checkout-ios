@@ -7,14 +7,16 @@ let package = Package(
     platforms: [
         .iOS(.v13)
     ],
+    swiftLanguageVersions: [
+        .v5
+    ]
     products: [
-        .library(
-            name: "weipl_checkout",
-            targets: ["weipl_checkout"]
-        )
+            .executable(name: "weipl_checkout", targets: [ "weipl_checkout.framework" ]),
+
     ],
     dependencies: [
-        .package(url: "https://github.com/Worldline-ePayments-India/weipl-checkout-ios.git", from: "1.1.5"),
+        .package(url: "https://github.com/Worldline-ePayments-India/weipl-checkout-ios.git", .exact("1.1.5")),
+
     ],
     targets: [
         .target(
