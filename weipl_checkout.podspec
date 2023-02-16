@@ -27,7 +27,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Worldline-ePayments-India/weipl-checkout-ios.git', :tag => s.version.to_s }
   s.ios.deployment_target = '12.0'
   s.requires_arc = true
-  #s.ios.resource_bundle = { 'weipl_checkout' => 'weipl_checkout/**/*.{lproj,nib,swiftmodules,png,json}' }
   s.swift_version = '4.2'
   s.source_files = 'weipl_checkout/**/*.{h,m,swift}'
   s.exclude_files = 'weipl_checkout.framework/*.plist'
