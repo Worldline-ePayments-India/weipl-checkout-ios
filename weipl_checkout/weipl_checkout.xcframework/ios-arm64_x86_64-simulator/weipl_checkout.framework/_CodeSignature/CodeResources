@@ -10,39 +10,55 @@
 		</data>
 		<key>Headers/weipl_checkout-Swift.h</key>
 		<data>
-		LqnsDJP7a4GE5bAWDG+7bkh8Wm8=
+		lQ8AQmSKEoGs8N6HQVAduZouRvs=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/dENFsWRaMg2FgTXE33aK4c1E4w=
+		Xrq2Q5pZvHbimFinJynvS8o5S5s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		X1E/z9L6ZRFG3F3YuSftru1QrkA=
 		</data>
-		<key>Modules/weipl_checkout.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<key>Modules/weipl_checkout.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		iQIaJ1Jv0E631rphaYUhHNEldmw=
+		hHjlb+y8FTwEFWv5/5shJ1AiMgw=
 		</data>
-		<key>Modules/weipl_checkout.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/weipl_checkout.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		LW3eyxUzrMjaA2BMfiy+LWGEtVY=
+		8gk1ezTEgN2aT/Aqo1qkUG7gNuU=
 		</data>
-		<key>Modules/weipl_checkout.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/weipl_checkout.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		5ENbptHWHBR3v3Vx9Q9409dwY0I=
+		xGPaVbDgbgg86bYypS0nM3u7JMU=
 		</data>
-		<key>Modules/weipl_checkout.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/weipl_checkout.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		7cJ9Z6ICNLrnS/kUjIymER0eNkY=
+		8gk1ezTEgN2aT/Aqo1qkUG7gNuU=
 		</data>
-		<key>Modules/weipl_checkout.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/weipl_checkout.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5ENbptHWHBR3v3Vx9Q9409dwY0I=
+		bkpJa7khSvbjcHPTFKTdry98ZS0=
 		</data>
-		<key>Modules/weipl_checkout.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/weipl_checkout.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		TVH9rlJ2agMQ+z4idU3R3XZe86I=
+		hHjlb+y8FTwEFWv5/5shJ1AiMgw=
+		</data>
+		<key>Modules/weipl_checkout.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		Jhl5rhbkEHbHJXUrtO/orIIvnOY=
+		</data>
+		<key>Modules/weipl_checkout.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		6sClxfjIkR5cYG4AywgyEN0LyBI=
+		</data>
+		<key>Modules/weipl_checkout.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		Jhl5rhbkEHbHJXUrtO/orIIvnOY=
+		</data>
+		<key>Modules/weipl_checkout.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		ZQKlq35WRqhYAh7gZLk1YgrDqhY=
 		</data>
 		<key>WLCheckoutViewController.nib/objects-14.0+.nib</key>
 		<data>
@@ -66,7 +82,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UX0UsHoQAV750Inv5LI1rS2WEtZORU1dqSQ05dVM3O4=
+			qwpUkK7XJbLNdHa4Hl9Gbet+J8QSewk7bAmZVhN6n04=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -76,46 +92,74 @@
 			HaZNlIWpsWrYiOGN6BsV8Mu+wzkK3+xXVw3uZDurdTM=
 			</data>
 		</dict>
-		<key>Modules/weipl_checkout.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<key>Modules/weipl_checkout.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qx4SPhJfJZ8d03GdIyU1EDFsTtFR24qUrEgFAWqDIww=
+			YQnuHdjLlxwj37cv3x0BVZzdVmUgqj8sFZiM6vKReXE=
 			</data>
 		</dict>
-		<key>Modules/weipl_checkout.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/weipl_checkout.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s90/dXEgoUEjzX06/A0LouAxJUOZ46vBF6VsiFvv2DY=
+			CdhmG8kC5dG07UpwhyClYV+NScJ62ZZ6kmyi3DF/uTM=
 			</data>
 		</dict>
-		<key>Modules/weipl_checkout.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/weipl_checkout.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e3mo17aG0ob6W9cFENi6RxSZQnn4wWu9wvphvkG5OAc=
+			UFewtZiVxaXtb+HsPAbLMNmd4B+00+MqrtlT7N2TYpQ=
 			</data>
 		</dict>
-		<key>Modules/weipl_checkout.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/weipl_checkout.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JLTx23jcF8MLgnWOMt7E2UBBFoMf7CHCZyVUoKau8yM=
+			CdhmG8kC5dG07UpwhyClYV+NScJ62ZZ6kmyi3DF/uTM=
 			</data>
 		</dict>
-		<key>Modules/weipl_checkout.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/weipl_checkout.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e3mo17aG0ob6W9cFENi6RxSZQnn4wWu9wvphvkG5OAc=
+			jWUcj4FFOUyIYimstRpe1hPVDFwDipKNAzc+FsNWeHg=
 			</data>
 		</dict>
-		<key>Modules/weipl_checkout.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/weipl_checkout.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IW6+UdrUMjjSjHgmXgVaYUznffEeRnE946WpJmPCjvU=
+			YQnuHdjLlxwj37cv3x0BVZzdVmUgqj8sFZiM6vKReXE=
+			</data>
+		</dict>
+		<key>Modules/weipl_checkout.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BLRZMrlIpKojkdZ2s/PmQj85uA6J1Dqu13mcB684Bok=
+			</data>
+		</dict>
+		<key>Modules/weipl_checkout.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TdpWjsSmfZ+z9k36eKPCqvad6twUhJyXrirApkl9+wU=
+			</data>
+		</dict>
+		<key>Modules/weipl_checkout.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BLRZMrlIpKojkdZ2s/PmQj85uA6J1Dqu13mcB684Bok=
+			</data>
+		</dict>
+		<key>Modules/weipl_checkout.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A3pIE5WVQdh/fx230+uVFuXPuwxfA93SOEK849n/prA=
 			</data>
 		</dict>
 		<key>WLCheckoutViewController.nib/objects-14.0+.nib</key>
