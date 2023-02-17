@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'weipl_checkout'
-  s.version          = '1.1.7'
+  s.version          = '1.2.0'
   s.summary          = 'iOS Checkout SDK for Worldline ePayments India.'
   s.description      = <<-DESC
   This is official native SDK to integrate Worldline ePayments India Checkout.
