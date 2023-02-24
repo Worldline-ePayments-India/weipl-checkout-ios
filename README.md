@@ -11,6 +11,15 @@ This is official native SDK to integrate Worldline ePayments India Checkout.
 **Note**:
 - We support Xcode 12+ versions. 
 
+## Installation
+
+weipl_checkout is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'weipl_checkout'
+```
+
 ## Integration code
 
 Here is a checkout initialisation code sample:
@@ -71,20 +80,11 @@ do {
 
 Please refer our integration guide for our **[iOS native SDK](https://www.paynimo.com/paynimocheckout/docs/?device=ios)**.
 
-## Example
+## Contributing
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Thank you, [contributors]!
 
-## Requirements
-
-## Installation
-
-weipl_checkout is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'weipl_checkout'
-```
+[contributors]: https://github.com/Worldline-ePayments-India/weipl-checkout-ios/graphs/contributors
 
 ## License
 
