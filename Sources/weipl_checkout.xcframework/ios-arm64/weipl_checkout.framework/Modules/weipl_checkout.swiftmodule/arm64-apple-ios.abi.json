@@ -796,56 +796,56 @@
     {
       "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 502,
+      "offset": 268,
       "length": 65,
       "value": "\"https:\/\/paynimo.com\/paynimocheckout\/server\/others\/checkout.html\""
     },
     {
       "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 600,
+      "offset": 366,
       "length": 68,
       "value": "\"https:\/\/paynimo.com\/paynimocheckout\/server\/others\/banksConfig.json\""
     },
     {
       "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 716,
+      "offset": 482,
       "length": 56,
       "value": "\"Are you sure you want to cancel the payment \/ request?\""
     },
     {
       "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 807,
+      "offset": 573,
       "length": 93,
       "value": "\"Due to some technical reason we are unable to process your request, please try again later!\""
     },
     {
       "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 934,
+      "offset": 700,
       "length": 73,
       "value": "\"We are unable to process your request. Kindly check network connection.\""
     },
     {
       "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 1036,
+      "offset": 802,
       "length": 42,
       "value": "\"Kindly call preloadData() to initialize.\""
     },
     {
       "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 1108,
+      "offset": 874,
       "length": 119,
       "value": "\"Incorrect device identifier is passed, please use valid iOS device associated device identifiers like iOSSH1, iOSSH2.\""
     },
     {
       "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 1262,
+      "offset": 1028,
       "length": 31,
       "value": "\"Payload data is not received.\""
     },
@@ -929,7 +929,7 @@
     {
       "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 13191,
+      "offset": 13183,
       "length": 3,
       "value": "1.0"
     }
