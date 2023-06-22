@@ -5,9 +5,7 @@
 import CallKit
 import CryptoKit
 import Foundation
-import JavaScriptCore
 import Swift
-import SwiftUI
 import SystemConfiguration
 import UIKit
 import WebKit
