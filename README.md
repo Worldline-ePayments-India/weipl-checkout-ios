@@ -2,9 +2,7 @@
 
 This is official native SDK to integrate Worldline ePayments India Checkout.
 
-[![Version](https://img.shields.io/cocoapods/v/weipl_checkout.svg?style=flat)](https://cocoapods.org/pods/weipl_checkout)
-[![License](https://img.shields.io/cocoapods/l/weipl_checkout.svg?style=flat)](https://cocoapods.org/pods/weipl_checkout)
-[![Platform](https://img.shields.io/cocoapods/p/weipl_checkout.svg?style=flat)](https://cocoapods.org/pods/weipl_checkout)
+[![CI Status](https://img.shields.io/travis/113965130/weipl_checkout.svg?style=flat)](https://travis-ci.org/113965130/weipl_checkout)[![Version](https://img.shields.io/cocoapods/v/weipl_checkout.svg?style=flat)](https://cocoapods.org/pods/weipl_checkout)[![License](https://img.shields.io/cocoapods/l/weipl_checkout.svg?style=flat)](https://cocoapods.org/pods/weipl_checkout)[![Platform](https://img.shields.io/cocoapods/p/weipl_checkout.svg?style=flat)](https://cocoapods.org/pods/weipl_checkout)
 
 ## Supported platforms
 
