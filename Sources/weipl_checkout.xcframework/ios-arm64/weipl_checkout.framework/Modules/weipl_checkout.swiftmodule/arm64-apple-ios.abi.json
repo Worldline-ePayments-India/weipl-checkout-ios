@@ -84,6 +84,13 @@
         "moduleName": "weipl_checkout"
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "weipl_checkout"
+      },
+      {
         "kind": "TypeDecl",
         "name": "WLCheckoutViewController",
         "printedName": "WLCheckoutViewController",
@@ -236,6 +243,60 @@
               "ObjC",
               "Custom",
               "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openWebView",
+            "printedName": "openWebView(url:requestObj:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14weipl_checkout24WLCheckoutViewControllerC07openWebD03url10requestObjySS_SStF",
+            "mangledName": "$s14weipl_checkout24WLCheckoutViewControllerC07openWebD03url10requestObjySS_SStF",
+            "moduleName": "weipl_checkout",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "closeWebView",
+            "printedName": "closeWebView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14weipl_checkout24WLCheckoutViewControllerC08closeWebD0yyF",
+            "mangledName": "$s14weipl_checkout24WLCheckoutViewControllerC08closeWebD0yyF",
+            "moduleName": "weipl_checkout",
+            "declAttributes": [
+              "Custom",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -676,7 +737,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -838,6 +899,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       }
@@ -846,1866 +914,144 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
+      "filePath": "\/Users\/ashishp\/Desktop\/Backup Projects\/Checkout JS SDK\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 268,
+      "offset": 507,
       "length": 65,
       "value": "\"https:\/\/paynimo.com\/paynimocheckout\/server\/others\/checkout.html\""
     },
     {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
+      "filePath": "\/Users\/ashishp\/Desktop\/Backup Projects\/Checkout JS SDK\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 366,
+      "offset": 605,
       "length": 68,
       "value": "\"https:\/\/paynimo.com\/paynimocheckout\/server\/others\/banksConfig.json\""
     },
     {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
+      "filePath": "\/Users\/ashishp\/Desktop\/Backup Projects\/Checkout JS SDK\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 482,
+      "offset": 727,
       "length": 56,
       "value": "\"Are you sure you want to cancel the payment \/ request?\""
     },
     {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
+      "filePath": "\/Users\/ashishp\/Desktop\/Backup Projects\/Checkout JS SDK\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 573,
+      "offset": 818,
       "length": 93,
       "value": "\"Due to some technical reason we are unable to process your request, please try again later!\""
     },
     {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
+      "filePath": "\/Users\/ashishp\/Desktop\/Backup Projects\/Checkout JS SDK\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 700,
+      "offset": 945,
       "length": 73,
       "value": "\"We are unable to process your request. Kindly check network connection.\""
     },
     {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
+      "filePath": "\/Users\/ashishp\/Desktop\/Backup Projects\/Checkout JS SDK\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 802,
+      "offset": 1047,
       "length": 42,
       "value": "\"Kindly call preloadData() to initialize.\""
     },
     {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
+      "filePath": "\/Users\/ashishp\/Desktop\/Backup Projects\/Checkout JS SDK\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 874,
+      "offset": 1119,
       "length": 119,
       "value": "\"Incorrect device identifier is passed, please use valid iOS device associated device identifiers like iOSSH1, iOSSH2.\""
     },
     {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
+      "filePath": "\/Users\/ashishp\/Desktop\/Backup Projects\/Checkout JS SDK\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 1028,
+      "offset": 1273,
       "length": 31,
       "value": "\"Payload data is not received.\""
     },
     {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1446,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
+      "filePath": "\/Users\/ashishp\/Desktop\/Backup Projects\/Checkout JS SDK\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1732,
-      "length": 61,
-      "value": "\"Error occured while decoding: \""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
-      "kind": "StringLiteral",
-      "offset": 1792,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2234,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2362,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
-      "kind": "Array",
-      "offset": 2426,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2526,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2911,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
-      "kind": "StringLiteral",
-      "offset": 3016,
-      "length": 24,
-      "value": "\"https:\/\/www.google.com\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3146,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3529,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3603,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
-      "kind": "StringLiteral",
-      "offset": 4415,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
-      "kind": "StringLiteral",
-      "offset": 4503,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Utility.swift",
-      "kind": "StringLiteral",
-      "offset": 4587,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Extensions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 328,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Extensions.swift",
-      "kind": "StringLiteral",
-      "offset": 1042,
+      "offset": 1178,
       "length": 7,
       "value": "\":#[]@\""
     },
     {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Extensions.swift",
+      "filePath": "\/Users\/ashishp\/Desktop\/Backup Projects\/Checkout JS SDK\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1147,
+      "offset": 1283,
       "length": 13,
       "value": "\"!$&'()*+,;=\""
     },
     {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Extensions.swift",
+      "filePath": "\/Users\/ashishp\/Desktop\/Backup Projects\/Checkout JS SDK\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1249,
+      "offset": 1385,
       "length": 54,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Extensions.swift",
+      "filePath": "\/Users\/ashishp\/Desktop\/Backup Projects\/Checkout JS SDK\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1278,
+      "offset": 1414,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Extensions.swift",
+      "filePath": "\/Users\/ashishp\/Desktop\/Backup Projects\/Checkout JS SDK\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1302,
+      "offset": 1438,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/Extensions.swift",
+      "filePath": "\/Users\/ashishp\/Desktop\/Backup Projects\/Checkout JS SDK\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 923,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ashishp\/Desktop\/Backup Projects\/Checkout JS SDK\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1479,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ashishp\/Desktop\/Backup Projects\/Checkout JS SDK\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1503,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ashishp\/Desktop\/Backup Projects\/Checkout JS SDK\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1537,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ashishp\/Desktop\/Backup Projects\/Checkout JS SDK\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2040,
-      "length": 14,
-      "value": "\"yyyyMMddHHmm\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 809,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1348,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1372,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1406,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1482,
+      "offset": 1571,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
+      "filePath": "\/Users\/ashishp\/Desktop\/Backup Projects\/Checkout JS SDK\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1514,
+      "offset": 1629,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1895,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1933,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1972,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2078,
-      "length": 26,
-      "value": "\"WLCheckoutViewController\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2368,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2553,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2612,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
+      "filePath": "\/Users\/ashishp\/Desktop\/Backup Projects\/Checkout JS SDK\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2739,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2823,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3072,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3110,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3294,
-      "length": 12,
-      "value": "\"error_code\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3308,
-      "length": 6,
-      "value": "\"0399\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3332,
-      "length": 12,
-      "value": "\"error_desc\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3623,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3715,
-      "length": 24,
-      "value": "\"wlCheckoutPaymentError\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3750,
-      "length": 13,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3762,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3899,
-      "length": 12,
-      "value": "\"error_code\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3913,
-      "length": 6,
-      "value": "\"0399\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3937,
-      "length": 12,
-      "value": "\"error_desc\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4223,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4315,
-      "length": 24,
-      "value": "\"wlCheckoutPaymentError\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4350,
-      "length": 13,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4362,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4621,
-      "length": 10,
-      "value": "\"debugger\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4657,
-      "length": 10,
-      "value": "\"debugger\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4720,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4802,
-      "length": 14,
-      "value": "\"consumerData\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4938,
-      "length": 13,
-      "value": "\"customStyle\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4989,
-      "length": 10,
-      "value": "\"deviceId\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5133,
-      "length": 20,
-      "value": "\"PRIMARY_COLOR_CODE\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5249,
-      "length": 14,
-      "value": "\"consumerData\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5344,
-      "length": 12,
-      "value": "\"error_code\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5358,
-      "length": 6,
-      "value": "\"0399\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5382,
-      "length": 12,
-      "value": "\"error_desc\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5674,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5766,
-      "length": 24,
-      "value": "\"wlCheckoutPaymentError\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5801,
-      "length": 13,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5813,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5963,
-      "length": 5,
-      "value": "\"ios\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6029,
-      "length": 12,
-      "value": "\"error_code\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6043,
-      "length": 6,
-      "value": "\"0399\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6067,
-      "length": 12,
-      "value": "\"error_desc\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6354,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6446,
-      "length": 24,
-      "value": "\"wlCheckoutPaymentError\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6481,
-      "length": 13,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6493,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6620,
-      "length": 19,
-      "value": "\"decryptedResponse\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6701,
-      "length": 19,
-      "value": "\"decryptedResponse\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6793,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6916,
-      "length": 16,
-      "value": "\"hybridCheckout\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6986,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7000,
-      "length": 16,
-      "value": "\"hybridCheckout\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7099,
-      "length": 16,
-      "value": "\"hybridCheckout\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7117,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7358,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7487,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7601,
-      "length": 4,
-      "value": "\"?v\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8080,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8324,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8411,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 8633,
-      "length": 17,
-      "value": "\"responseHandler\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 8707,
-      "length": 22,
-      "value": "\"checkInstalledUpiApp\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 8812,
-      "length": 20,
-      "value": "\"invokeUpiIntentApp\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 8913,
-      "length": 10,
-      "value": "\"isOnline\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9145,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9156,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 9330,
+      "offset": 15552,
       "length": 3,
       "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9794,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9906,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10542,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10585,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11296,
-      "length": 26,
-      "value": "\"loadCheckout(\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11320,
-      "length": 1,
-      "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11604,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 12034,
-      "length": 4,
-      "value": "54.0"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 12081,
-      "length": 4,
-      "value": "54.0"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12122,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12171,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12310,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12354,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12392,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 12655,
-      "length": 14,
-      "value": "\"Confirmation\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 12680,
-      "length": 23,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 12702,
-      "length": 49,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 12839,
-      "length": 4,
-      "value": "\"No\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 13012,
-      "length": 5,
-      "value": "\"Yes\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13159,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13308,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 13709,
-      "length": 28,
-      "value": "\"UPI app is in active state\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 13927,
-      "length": 31,
-      "value": "\"UPI app is in In-active state\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 14186,
-      "length": 32,
-      "value": "\"UPI app is in background state\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 14348,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14402,
-      "length": 8,
-      "value": "0xFF0000"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14415,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 14419,
-      "length": 5,
-      "value": "256.0"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14465,
-      "length": 6,
-      "value": "0xFF00"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14476,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 14479,
-      "length": 5,
-      "value": "256.0"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14523,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 14529,
-      "length": 5,
-      "value": "256.0"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14843,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 15150,
-      "length": 5,
-      "value": "\"uri\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 15205,
-      "length": 10,
-      "value": "\"callback\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15694,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "Dictionary",
-      "offset": 15752,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 15859,
-      "length": 22,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 15871,
-      "length": 1,
-      "value": "\"(\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15874,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 15879,
-      "length": 1,
-      "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 16138,
-      "length": 3,
-      "value": "0.3"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16643,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 16860,
-      "length": 17,
-      "value": "\"responseHandler\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16958,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 17040,
-      "length": 14,
-      "value": "\"consumerData\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 17196,
-      "length": 10,
-      "value": "\"deviceId\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17524,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 17550,
-      "length": 8,
-      "value": "\"iosweb\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 17579,
-      "length": 5,
-      "value": "\"ios\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 17756,
-      "length": 27,
-      "value": "\"wlCheckoutPaymentResponse\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 17794,
-      "length": 13,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 17806,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 18078,
-      "length": 27,
-      "value": "\"wlCheckoutPaymentResponse\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 18116,
-      "length": 13,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 18128,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 18228,
-      "length": 22,
-      "value": "\"checkInstalledUpiApp\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 18444,
-      "length": 8,
-      "value": "\"scheme\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 18510,
-      "length": 10,
-      "value": "\"callback\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 18735,
-      "length": 8,
-      "value": "\"scheme\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 18752,
-      "length": 13,
-      "value": "\"isInstalled\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 19045,
-      "length": 28,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 19057,
-      "length": 1,
-      "value": "\"(\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 19071,
-      "length": 1,
-      "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 19545,
-      "length": 20,
-      "value": "\"invokeUpiIntentApp\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 19663,
-      "length": 10,
-      "value": "\"isOnline\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 20303,
-      "length": 3,
-      "value": "0.3"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 20385,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 21134,
-      "length": 7,
-      "value": "\"Close\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 21285,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 21820,
-      "length": 8,
-      "value": "\"Cancel\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 21908,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 21989,
-      "length": 4,
-      "value": "\"Ok\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 22069,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 22155,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 22655,
-      "length": 25,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 22679,
-      "length": 6,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22704,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22710,
-      "length": 3,
-      "value": "400"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 22792,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22845,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22924,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22997,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 23074,
-      "length": 12,
-      "value": "\"error_code\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 23088,
-      "length": 6,
-      "value": "\"0399\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 23120,
-      "length": 12,
-      "value": "\"error_desc\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 23436,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 23537,
-      "length": 24,
-      "value": "\"wlCheckoutPaymentError\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 23572,
-      "length": 13,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 23584,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 24105,
-      "length": 12,
-      "value": "\"js2ios:\/\/?\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "Dictionary",
-      "offset": 24426,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 24734,
-      "length": 12,
-      "value": "\"js2ios:\/\/?\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 25036,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 25173,
-      "length": 14,
-      "value": "\"functionname\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 25233,
-      "length": 9,
-      "value": "\"success\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 25286,
-      "length": 7,
-      "value": "\"error\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 25336,
-      "length": 6,
-      "value": "\"args\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "Array",
-      "offset": 25400,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 25449,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 25475,
-      "length": 8,
-      "value": "\"iosweb\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 25504,
-      "length": 5,
-      "value": "\"ios\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 25559,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 25697,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 26505,
-      "length": 25,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 26529,
-      "length": 6,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 26579,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 26625,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 27326,
-      "length": 121,
-      "value": "\"document.getElementsByTagName(\"head\")[0].insertAdjacentHTML(\"beforeend\", \"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 27442,
-      "length": 1,
-      "value": "\"\");\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 28988,
-      "length": 8,
-      "value": "\"setTER\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 29112,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "Array",
-      "offset": 29166,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 29441,
-      "length": 14,
-      "value": "\"consumerData\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 29589,
-      "length": 10,
-      "value": "\"deviceId\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 29663,
-      "length": 8,
-      "value": "\"iosweb\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 29692,
-      "length": 5,
-      "value": "\"ios\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 29779,
-      "length": 11,
-      "value": "\"txthdnMsg\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 29806,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 29854,
-      "length": 18,
-      "value": "\"txthdntpslmrctcd\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 29888,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 29962,
-      "length": 8,
-      "value": "\"iossh1\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 29991,
-      "length": 8,
-      "value": "\"iossh2\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 30020,
-      "length": 8,
-      "value": "\"iosmd5\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 30110,
-      "length": 5,
-      "value": "\"msg\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 30131,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 30205,
-      "length": 14,
-      "value": "\"iosdirectsh1\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 30240,
-      "length": 14,
-      "value": "\"iosdirectsh2\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 30275,
-      "length": 14,
-      "value": "\"iosdirectmd5\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 30370,
-      "length": 5,
-      "value": "\"msg\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 30391,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 30439,
-      "length": 14,
-      "value": "\"tpsl_mrct_cd\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 30469,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 30629,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 30651,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 30718,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 30991,
-      "length": 5,
-      "value": "\"msg\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 31550,
-      "length": 14,
-      "value": "\"consumerData\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 31716,
-      "length": 10,
-      "value": "\"deviceId\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 31911,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 31937,
-      "length": 8,
-      "value": "\"iosweb\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 31966,
-      "length": 5,
-      "value": "\"ios\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 32088,
-      "length": 18,
-      "value": "\"txthdntpslmrctcd\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 32160,
-      "length": 5,
-      "value": "\"msg\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 32220,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 32283,
-      "length": 6,
-      "value": "\"desc\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 32362,
-      "length": 12,
-      "value": "\"merchantId\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 32455,
-      "length": 9,
-      "value": "\"tarCall\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 32524,
-      "length": 14,
-      "value": "\"consumerData\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 32905,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 33075,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 33160,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 33312,
-      "length": 12,
-      "value": "\"merchantId\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 33398,
-      "length": 15,
-      "value": "\"merchant_code\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 33472,
-      "length": 14,
-      "value": "\"tpsl_mrct_cd\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 33968,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 34068,
-      "length": 27,
-      "value": "\"wlCheckoutPaymentResponse\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 34106,
-      "length": 13,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 34118,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ashishpalaskar\/Documents\/WORLDLINE\/Project Work\/Xcode Project\/Paynimo\/PN V1.x (SWIFT)\/PN 3.3 SDK KIT (Checkout JS)\/Proposed SDK\/Paynimo_JS\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 34473,
-      "length": 4,
-      "value": "true"
     }
   ]
 }

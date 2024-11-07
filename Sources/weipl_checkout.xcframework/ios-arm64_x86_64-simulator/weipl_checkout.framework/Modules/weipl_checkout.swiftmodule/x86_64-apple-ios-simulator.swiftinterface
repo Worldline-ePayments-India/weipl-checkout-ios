@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name weipl_checkout
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name weipl_checkout
 import CallKit
 import CryptoKit
 import Foundation
@@ -11,6 +10,7 @@ import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class WLCheckoutViewController : UIKit.UIViewController, WebKit.WKNavigationDelegate, WebKit.WKUIDelegate, UIKit.UIScrollViewDelegate, WebKit.WKScriptMessageHandler, CallKit.CXCallObserverDelegate {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) public func preloadData()
@@ -18,6 +18,8 @@ import _StringProcessing
   @_Concurrency.MainActor(unsafe) public func initiateCheckoutJS()
   @objc deinit
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) public func openWebView(url: Swift.String, requestObj: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func closeWebView()
   @_Concurrency.MainActor(unsafe) public func checkInstalledUpiApp(scheme: Swift.String) -> Swift.Bool
   @_Concurrency.MainActor(unsafe) public func invokeUpiIntentApp(message: WebKit.WKScriptMessage)
   @_Concurrency.MainActor(unsafe) @objc public func scrollViewWillBeginZooming(_ scrollView: UIKit.UIScrollView, with view: UIKit.UIView?)
