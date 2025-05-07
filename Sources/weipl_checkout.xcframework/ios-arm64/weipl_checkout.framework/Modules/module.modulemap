@@ -1,4 +1,11 @@
 framework module weipl_checkout {
+  umbrella header "weipl_checkout.h"
+  export *
+
+  module * { export * }
+}
+
+module weipl_checkout.Swift {
   header "weipl_checkout-Swift.h"
   requires objc
 }
